@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Legacy = () => {
   return (
@@ -11,28 +12,28 @@ const Legacy = () => {
       </div>
       <div className="w-[70%] flex justify-evenly">
         <div className="flex items-center justify-center   space-x-2">
-          <img src="/legacy-number-1.png" alt="" />
+          <Image src="/legacy-number-1.png" alt="" />
           <div className="flex flex-col items-start justify-center space-x-2">
             <h3 className="outfit">500+</h3>
             <p className="outfit-400-16">Projects completed</p>
           </div>
         </div>
         <div className="flex items-center justify-center   space-x-2">
-          <img src="/legacy-number-2.png" alt="" />
+          <Image src="/legacy-number-2.png" alt="" />
           <div className="flex flex-col items-start justify-center space-x-2">
             <h3 className="outfit">100+</h3>
             <p className="outfit-400-16">Tile & stone Options</p>
           </div>
         </div>
         <div className="flex items-center justify-center   space-x-2">
-          <img src="/legacy-number-3.png" alt="" />
+          <Image src="/legacy-number-3.png" alt="" />
           <div className="flex flex-col items-start justify-center space-x-2">
             <h3 className="outfit">200+</h3>
             <p className="outfit-400-16">Happy Clients</p>
           </div>
         </div>
         <div className="flex items-center justify-center   space-x-2">
-          <img src="/legacy-number-4.png" alt="" />
+          <Image src="/legacy-number-4.png" alt="" />
           <div className="flex flex-col items-start justify-center space-x-2">
             <h3 className="outfit">1992</h3>
             <p className="outfit-400-16">Established In</p>

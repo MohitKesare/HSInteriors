@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const MarbleInstallations = () => {
   return (
@@ -24,7 +25,7 @@ const MarbleInstallations = () => {
                   quality, pattern, and tone.
                 </p>
               </div>
-              <img
+              <Image
                 src={`interior-1.jpg`}
                 alt=""
                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -41,7 +42,7 @@ const MarbleInstallations = () => {
                   honed textures.
                 </p>
               </div>
-              <img
+              <Image
                 src={`interior-2.jpg`}
                 alt=""
                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -63,7 +64,7 @@ const MarbleInstallations = () => {
                   result.
                 </p>
               </div>
-              <img
+              <Image
                 src={`interior-3.jpg`}
                 alt=""
                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -80,7 +81,7 @@ const MarbleInstallations = () => {
                   support plans.
                 </p>
               </div>
-              <img
+              <Image
                 src={`interior-4.jpg`}
                 alt=""
                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"

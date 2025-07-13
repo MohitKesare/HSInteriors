@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Process = () => {
   return (
@@ -7,7 +8,11 @@ const Process = () => {
         <div className="w-[50%] flex flex-col justify-evenly">
           <div className="h-[30%] w-full  flex space-x-10">
             <div className="flex flex-col ml-4 justify-center items-center">
-              <img src="process-1.png" alt="" className="h-[10vh]  w-[8vw] " />
+              <Image
+                src="process-1.png"
+                alt=""
+                className="h-[10vh]  w-[8vw] "
+              />
               <div className="h-full w-[2px] bg-[#C4A386] mt-4" />
             </div>
             <div className="flex flex-col ">
@@ -22,7 +27,11 @@ const Process = () => {
           </div>
           <div className="h-[30%] w-full  flex space-x-10">
             <div className="flex flex-col ml-4 justify-center items-center">
-              <img src="process-2.png" alt="" className="h-[10vh]  w-[8vw] " />
+              <Image
+                src="process-2.png"
+                alt=""
+                className="h-[10vh]  w-[8vw] "
+              />
               <div className="h-full w-[2px] bg-[#C4A386] mt-4" />
             </div>
             <div className="flex flex-col ">
@@ -36,7 +45,11 @@ const Process = () => {
           </div>
           <div className="h-[30%] w-full  flex space-x-10">
             <div className="flex flex-col ml-4 justify-center items-center">
-              <img src="process-3.png" alt="" className="h-[10vh]  w-[8vw] " />
+              <Image
+                src="process-3.png"
+                alt=""
+                className="h-[10vh]  w-[8vw] "
+              />
               <div className="h-full w-[2px] bg-[#C4A386] mt-4" />
             </div>
             <div className="flex flex-col ">
@@ -60,18 +73,18 @@ const Process = () => {
           </div>
           <p className="text-[#444444] ml-6 pr-5 outfit-400-20 w-[90%]">
             HS Marble Edge is a legacy built over a century of dedication to
-            interior craftsmanship. Since 1922, we've been creating spaces that
+            interior craftsmanship. Since 1922, we&apos;ve been creating spaces that
             blend beauty with precision — offering expert services in interior
             design, tile work, marble and granite fittings. With a commitment to
-            quality and timeless aesthetics, we’ve earned the trust of
+            quality and timeless aesthetics, we&apos;ve earned the trust of
             homeowners, architects, and builders alike.
           </p>
           <p className="text-[#444444] ml-6 pr-5 outfit-400-20 w-[90%]">
             HS Marble Edge is a legacy built over a century of dedication to
-            interior craftsmanship. Since 1922, we've been creating spaces that
+            interior craftsmanship. Since 1922, we&apos;ve been creating spaces that
             blend beauty with precision — offering expert services in interior
             design, tile work, marble and granite fittings. With a commitment to
-            quality and timeless aesthetics, we’ve earned the trust of
+            quality and timeless aesthetics, we&apos;ve earned the trust of
             homeowners, architects, and builders alike.
           </p>
         </div>

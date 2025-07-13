@@ -6,13 +6,14 @@ import {
   FaYoutube,
 } from "react-icons/fa6";
 import { RiTwitterXLine } from "react-icons/ri";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <footer className="relative w-full h-fit bg-[#2C2C2C]  flex flex-col items-center justify-center">
       <div className="h-[40vh]  w-[90%] flex items-center justify-center">
         <div className="flex">
-          <img src="logo.svg" alt="" className="mr-3" />
+          <Image src="logo.svg" alt="" className="mr-3" />
           <h2 className="fira-code-600 text-[#C4A386] ml-2">
             HS Interior Company
           </h2>

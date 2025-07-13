@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
       {/* Logo */}
       <div className="text-2xl font-bold text-white">
         <Link href="/">
-          <img src="/logo.svg" alt="" />
+          <Image src="/logo.svg" alt="" />
         </Link>
       </div>
 

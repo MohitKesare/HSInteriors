@@ -7,12 +7,13 @@ import Something from "@/components/ServicePage/Something";
 import TileInstallations from "@/components/ServicePage/TileInstallations";
 import Services from "@/components/Services";
 import React from "react";
+import Image from "next/image";
 
 const page = () => {
   return (
     <div className="relative w-full flex flex-col">
       {/* Background Image */}
-      <img
+      <Image
         src="services-home.png"
         alt=""
         className="absolute top-0 left-0 w-full h-[60vh] object-cover z-0 "

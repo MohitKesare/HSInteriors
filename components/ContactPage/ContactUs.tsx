@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 const ContactUs = () => {
   return (
@@ -11,7 +12,7 @@ const ContactUs = () => {
             <div className="w-[85%] h-[1.2px] bg-[#996830] mt-2"></div>
           </div>
           <div className="fira-code-600 leading-[80px] text-black ml-5">
-            Let's Connect & Create
+            Let&apos;s Connect & Create
             <br /> Something{" "}
             <span className="fira-code-italic">Exceptional</span>
           </div>
@@ -108,14 +109,14 @@ const ContactUs = () => {
           <div className="w-[50%] h-full flex flex-col ">
             <div className="flex justify-around mt-10">
               <div className="flex flex-col space-y-4">
-                <img src="email.png" alt="" className="w-[2vw]" />
+                <Image src="email.png" alt="" className="w-[2vw]" />
                 <h3 className="outfit-30 text-[#996830]">Email</h3>
                 <p className="underline outfit-400-16 text-[#2c2c2c]">
                   hsinterior@gmail.com
                 </p>
               </div>
               <div className="flex flex-col space-y-4">
-                <img src="phone.png" alt="" className="w-[2vw]" />
+                <Image src="phone.png" alt="" className="w-[2vw]" />
                 <h3 className="outfit-30 text-[#996830]">Phone</h3>
                 <p className="underline outfit-400-16 text-[#2c2c2c]">
                   9767457282
@@ -124,7 +125,7 @@ const ContactUs = () => {
             </div>
             <div className="flex items-start mt-10 ml-30">
               <div className="flex flex-col ">
-                <img src="address.png" alt="" className="w-[2vw]" />
+                <Image src="address.png" alt="" className="w-[2vw]" />
                 <h3 className="outfit-30 text-[#996830]">Address</h3>
                 <p className="underline outfit-400-16 text-[#2c2c2c]">
                   Infront Of Dmart, Hinjewadi, Pune
@@ -134,7 +135,7 @@ const ContactUs = () => {
             <div className="h-[30vh] w-[40vw]  mt-10 ml-10 overflow-hidden">
               <Link href={"/"}>
                 {" "}
-                <img src="location.png" alt="" className="w-full " />
+                <Image src="location.png" alt="" className="w-full " />
               </Link>
             </div>
           </div>

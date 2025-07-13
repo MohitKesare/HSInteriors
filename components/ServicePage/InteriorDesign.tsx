@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const InteriorDesign = () => {
   return (
@@ -51,7 +52,7 @@ const InteriorDesign = () => {
                   functionality, and aesthetics.
                 </p>
               </div>
-              <img
+              <Image
                 src={`interior-1.jpg`}
                 alt=""
                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -68,7 +69,7 @@ const InteriorDesign = () => {
                   scale, texture, and comfort.
                 </p>
               </div>
-              <img
+              <Image
                 src={`interior-2.jpg`}
                 alt=""
                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -90,7 +91,7 @@ const InteriorDesign = () => {
                   endure through trends.
                 </p>
               </div>
-              <img
+              <Image
                 src={`interior-3.jpg`}
                 alt=""
                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -107,7 +108,7 @@ const InteriorDesign = () => {
                   architectural elements.
                 </p>
               </div>
-              <img
+              <Image
                 src={`interior-4.jpg`}
                 alt=""
                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"

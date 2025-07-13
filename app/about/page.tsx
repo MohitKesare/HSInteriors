@@ -5,13 +5,14 @@ import Footer from "@/components/Footer";
 import Legacy from "@/components/Legacy";
 import Navbar from "@/components/Navbar";
 import Something from "@/components/ServicePage/Something";
+import Image from "next/image";
 import React from "react";
 
 const page = () => {
   return (
     <div className="relative w-full flex flex-col">
       {/* Background Image */}
-      <img
+      <Image
         src="services-home.png"
         alt=""
         className="absolute top-0 left-0 w-full h-[60vh] object-cover z-0 "

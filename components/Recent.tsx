@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const RecentWork = () => {
   return (
@@ -17,7 +18,7 @@ const RecentWork = () => {
             {/* start here */}
 
             <div className="relative group h-[55%] w-full overflow-hidden">
-              <img
+              <Image
                 src="/recent-work-1.png"
                 alt=""
                 className="h-full w-full object-cover transition duration-500 ease-in-out group-hover:brightness-75"
@@ -35,7 +36,7 @@ const RecentWork = () => {
               </div>
             </div>
             <div className="relative group h-[45%] w-full overflow-hidden">
-              <img
+              <Image
                 src="/recent-work-3.png"
                 alt=""
                 className="h-full w-full object-cover transition duration-500 ease-in-out group-hover:brightness-75"
@@ -55,7 +56,7 @@ const RecentWork = () => {
           </div>
           <div className="h-full w-[48%]  flex flex-col space-y-3">
             <div className="relative group h-[45%] w-full overflow-hidden">
-              <img
+              <Image
                 src="/recent-work-2.png"
                 alt=""
                 className="h-full w-full object-cover transition duration-500 ease-in-out group-hover:brightness-75"
@@ -71,7 +72,7 @@ const RecentWork = () => {
               </div>
             </div>
             <div className="relative group h-[55%] w-full overflow-hidden">
-              <img
+              <Image
                 src="/recent-work-4.png"
                 alt=""
                 className="h-full w-full object-cover transition duration-500 ease-in-out group-hover:brightness-75"

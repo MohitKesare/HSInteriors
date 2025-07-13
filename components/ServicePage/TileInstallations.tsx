@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const TileInstallations = () => {
   return (
@@ -25,7 +26,7 @@ const TileInstallations = () => {
           </div>
           <div className="ml-5">
             <p className="outfit text-[#444444] mt-4 w-[90%]">
-              Whether it's aesthetic tiling or heavy-duty floors, our team
+              Whether it&apos;s aesthetic tiling or heavy-duty floors, our team
               ensures clean cuts, level finishes, and flawless joints — every
               time.
             </p>
@@ -48,7 +49,7 @@ const TileInstallations = () => {
                   functionality, and aesthetics.
                 </p>
               </div>
-              <img
+              <Image
                 src={`interior-1.jpg`}
                 alt=""
                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -65,7 +66,7 @@ const TileInstallations = () => {
                   scale, texture, and comfort.
                 </p>
               </div>
-              <img
+              <Image
                 src={`interior-2.jpg`}
                 alt=""
                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -87,7 +88,7 @@ const TileInstallations = () => {
                   endure through trends.
                 </p>
               </div>
-              <img
+              <Image
                 src={`interior-3.jpg`}
                 alt=""
                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
@@ -104,7 +105,7 @@ const TileInstallations = () => {
                   architectural elements.
                 </p>
               </div>
-              <img
+              <Image
                 src={`interior-4.jpg`}
                 alt=""
                 className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"

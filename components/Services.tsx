@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Services = () => {
   return (
@@ -16,7 +17,7 @@ const Services = () => {
           {/* start here */}
           <div className="group relative w-[30%] h-full border-2 border-[#E6D8CC] rounded-lg overflow-hidden shadow-lg cursor-pointer bg-white">
             {/* Expanding image */}
-            <img
+            <Image
               src="/services-1.png"
               alt="Profile"
               className="
@@ -41,7 +42,7 @@ const Services = () => {
           {/* start here */}
           <div className="group relative w-[30%] h-full border-2 border-[#E6D8CC] rounded-lg overflow-hidden shadow-lg cursor-pointer bg-white">
             {/* Expanding image */}
-            <img
+            <Image
               src="/services-2.png"
               alt="Profile"
               className="
@@ -66,7 +67,7 @@ const Services = () => {
           {/* start here */}
           <div className="group relative w-[30%] h-full border-2 border-[#E6D8CC] rounded-lg overflow-hidden shadow-lg cursor-pointer bg-white">
             {/* Expanding image */}
-            <img
+            <Image
               src="/services-3.png"
               alt="Profile"
               className="

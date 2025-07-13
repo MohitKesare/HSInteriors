@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -31,12 +32,12 @@ const About = () => {
         </div>
         <div className="flex h-full w-[50%] items-center justify-center">
           <div className="w-full h-[80%]  space-x-2 flex">
-            <img
+            <Image
               src="/about-1.png"
               alt="About Us"
               className="w-full h-full object-cover relative -top-10"
             />
-            <img
+            <Image
               src="/about-2.png"
               alt="About Us"
               className="w-full h-full object-cover relative top-10"

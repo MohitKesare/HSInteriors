@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Values = () => {
   return (
@@ -17,7 +18,7 @@ const Values = () => {
           "
           >
             At HS Marble Edge, our century-long legacy is rooted in more than
-            just craftsmanship — it's guided by the values that define who we
+            just craftsmanship — it&apos;s guided by the values that define who we
             are. These principles shape every project we take on, ensuring we
             deliver not just beautiful spaces, but lasting trust.
           </p>
@@ -26,7 +27,7 @@ const Values = () => {
           {/* start here */}
           <div className="group relative w-[30%] h-full border-2 border-[#E6D8CC] rounded-lg overflow-hidden shadow-lg cursor-pointer bg-white">
             {/* Expanding image */}
-            <img
+            <Image
               src="/services-1.png"
               alt="Profile"
               className="
@@ -50,7 +51,7 @@ const Values = () => {
           {/* start here */}
           <div className="group relative w-[30%] h-full border-2 border-[#E6D8CC] rounded-lg overflow-hidden shadow-lg cursor-pointer bg-white">
             {/* Expanding image */}
-            <img
+            <Image
               src="/services-2.png"
               alt="Profile"
               className="
@@ -73,7 +74,7 @@ const Values = () => {
           {/* start here */}
           <div className="group relative w-[30%] h-full border-2 border-[#E6D8CC] rounded-lg overflow-hidden shadow-lg cursor-pointer bg-white">
             {/* Expanding image */}
-            <img
+            <Image
               src="/services-3.png"
               alt="Profile"
               className="

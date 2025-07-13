@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const AboutUs = () => {
   return (
@@ -16,10 +17,10 @@ const AboutUs = () => {
           </div>
           <p className="text-[#444444] ml-5 pr-5">
             HS Marble Edge is a legacy built over a century of dedication to
-            interior craftsmanship. Since 1922, we've been creating spaces that
+            interior craftsmanship. Since 1922, we&apos;ve been creating spaces that
             blend beauty with precision — offering expert services in interior
             design, tile work, marble and granite fittings. With a commitment to
-            quality and timeless aesthetics, we’ve earned the trust of
+            quality and timeless aesthetics, we&apos;ve earned the trust of
             homeowners, architects, and builders alike.
           </p>
           <div className=" ml-5 w-42 h-15 mt-6 border-1 border-[#2C2C2C] rounded-md hover:bg-[#C5A387] transition-all duration-300 hover:-translate-y-1">
@@ -31,7 +32,7 @@ const AboutUs = () => {
         </div>
         <div className="flex h-full w-[50%] items-center justify-center">
           <div className="w-full h-[80%]  space-x-2 flex">
-            <img
+            <Image
               src="/about-2.png"
               alt="About Us"
               className="w-full h-full object-cover relative top-10"
